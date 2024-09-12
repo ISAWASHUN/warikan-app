@@ -11,15 +11,7 @@ const meta = {
           summary: 'Settlement[]',
         },
       },
-    },
-    onSettlementClick: {
-      description: 'Callback for when a settlement is clicked',
-      table: {
-        type: {
-          summary: 'Function',
-        },
-      },
-    },
+    }
   },
 } as Meta<typeof SettlementList>;
 
